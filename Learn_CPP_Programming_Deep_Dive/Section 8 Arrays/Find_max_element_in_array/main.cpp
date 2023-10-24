@@ -36,6 +36,7 @@ int main(void)
     }
 
     cout<<"after sweeping the entire array we have min = "<<min<<" and max = "<<max<<endl;
+    delete[] myArray;
     return 0;
 
 }
