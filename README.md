@@ -8,6 +8,7 @@ The content within this repository is my own work produced as a result of comple
 ![Course Info](2023-10-19_17-30-00.png)
 
 ## IDE used
+Visual Studio Code
 
 ### About me
 * George Calin
