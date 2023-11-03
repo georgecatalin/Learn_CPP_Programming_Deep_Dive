@@ -8,11 +8,21 @@ int & fun(int &a)
    return a;
 }
 
+int fun1(int b)
+{
+
+    return 2*b;
+}
+
 int main(void)
 {
     int x = 1953;
 
     fun(x) = 1954;
+
+    int y = fun1(3);
+    cout<<"The value of y is "<<y<<endl;
+
 
     cout<<"The value of x is "<<x<<endl;
 }
