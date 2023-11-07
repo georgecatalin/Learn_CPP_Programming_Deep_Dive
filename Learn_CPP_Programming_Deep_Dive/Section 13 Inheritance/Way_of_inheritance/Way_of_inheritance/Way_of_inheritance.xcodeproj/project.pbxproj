@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DEA3A82E2AFAB35200708271 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEA3A82D2AFAB35200708271 /* main.cpp */; };
+		DEA3A8422AFAC61000708271 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEA3A8412AFAC61000708271 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		DEA3A8282AFAB35200708271 /* CopyFiles */ = {
+		DEA3A83C2AFAC61000708271 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DEA3A82A2AFAB35200708271 /* Constructors_in_inheritance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Constructors_in_inheritance; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEA3A82D2AFAB35200708271 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DEA3A83E2AFAC61000708271 /* Way_of_inheritance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Way_of_inheritance; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA3A8412AFAC61000708271 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DEA3A8272AFAB35200708271 /* Frameworks */ = {
+		DEA3A83B2AFAC61000708271 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,73 +38,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DEA3A8212AFAB35200708271 = {
+		DEA3A8352AFAC61000708271 = {
 			isa = PBXGroup;
 			children = (
-				DEA3A8342AFAC5C700708271 /* New Group */,
-				DEA3A82C2AFAB35200708271 /* Constructors_in_inheritance */,
-				DEA3A82B2AFAB35200708271 /* Products */,
+				DEA3A8402AFAC61000708271 /* Way_of_inheritance */,
+				DEA3A83F2AFAC61000708271 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DEA3A82B2AFAB35200708271 /* Products */ = {
+		DEA3A83F2AFAC61000708271 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DEA3A82A2AFAB35200708271 /* Constructors_in_inheritance */,
+				DEA3A83E2AFAC61000708271 /* Way_of_inheritance */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DEA3A82C2AFAB35200708271 /* Constructors_in_inheritance */ = {
+		DEA3A8402AFAC61000708271 /* Way_of_inheritance */ = {
 			isa = PBXGroup;
 			children = (
-				DEA3A82D2AFAB35200708271 /* main.cpp */,
+				DEA3A8412AFAC61000708271 /* main.cpp */,
 			);
-			path = Constructors_in_inheritance;
-			sourceTree = "<group>";
-		};
-		DEA3A8342AFAC5C700708271 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
+			path = Way_of_inheritance;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DEA3A8292AFAB35200708271 /* Constructors_in_inheritance */ = {
+		DEA3A83D2AFAC61000708271 /* Way_of_inheritance */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEA3A8312AFAB35200708271 /* Build configuration list for PBXNativeTarget "Constructors_in_inheritance" */;
+			buildConfigurationList = DEA3A8452AFAC61000708271 /* Build configuration list for PBXNativeTarget "Way_of_inheritance" */;
 			buildPhases = (
-				DEA3A8262AFAB35200708271 /* Sources */,
-				DEA3A8272AFAB35200708271 /* Frameworks */,
-				DEA3A8282AFAB35200708271 /* CopyFiles */,
+				DEA3A83A2AFAC61000708271 /* Sources */,
+				DEA3A83B2AFAC61000708271 /* Frameworks */,
+				DEA3A83C2AFAC61000708271 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Constructors_in_inheritance;
-			productName = Constructors_in_inheritance;
-			productReference = DEA3A82A2AFAB35200708271 /* Constructors_in_inheritance */;
+			name = Way_of_inheritance;
+			productName = Way_of_inheritance;
+			productReference = DEA3A83E2AFAC61000708271 /* Way_of_inheritance */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DEA3A8222AFAB35200708271 /* Project object */ = {
+		DEA3A8362AFAC61000708271 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					DEA3A8292AFAB35200708271 = {
+					DEA3A83D2AFAC61000708271 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = DEA3A8252AFAB35200708271 /* Build configuration list for PBXProject "Constructors_in_inheritance" */;
+			buildConfigurationList = DEA3A8392AFAC61000708271 /* Build configuration list for PBXProject "Way_of_inheritance" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,29 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = DEA3A8212AFAB35200708271;
-			productRefGroup = DEA3A82B2AFAB35200708271 /* Products */;
+			mainGroup = DEA3A8352AFAC61000708271;
+			productRefGroup = DEA3A83F2AFAC61000708271 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DEA3A8292AFAB35200708271 /* Constructors_in_inheritance */,
+				DEA3A83D2AFAC61000708271 /* Way_of_inheritance */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DEA3A8262AFAB35200708271 /* Sources */ = {
+		DEA3A83A2AFAC61000708271 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEA3A82E2AFAB35200708271 /* main.cpp in Sources */,
+				DEA3A8422AFAC61000708271 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DEA3A82F2AFAB35200708271 /* Debug */ = {
+		DEA3A8432AFAC61000708271 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -195,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		DEA3A8302AFAB35200708271 /* Release */ = {
+		DEA3A8442AFAC61000708271 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -249,7 +241,7 @@
 			};
 			name = Release;
 		};
-		DEA3A8322AFAB35200708271 /* Debug */ = {
+		DEA3A8462AFAC61000708271 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -257,7 +249,7 @@
 			};
 			name = Debug;
 		};
-		DEA3A8332AFAB35200708271 /* Release */ = {
+		DEA3A8472AFAC61000708271 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -268,25 +260,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DEA3A8252AFAB35200708271 /* Build configuration list for PBXProject "Constructors_in_inheritance" */ = {
+		DEA3A8392AFAC61000708271 /* Build configuration list for PBXProject "Way_of_inheritance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEA3A82F2AFAB35200708271 /* Debug */,
-				DEA3A8302AFAB35200708271 /* Release */,
+				DEA3A8432AFAC61000708271 /* Debug */,
+				DEA3A8442AFAC61000708271 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DEA3A8312AFAB35200708271 /* Build configuration list for PBXNativeTarget "Constructors_in_inheritance" */ = {
+		DEA3A8452AFAC61000708271 /* Build configuration list for PBXNativeTarget "Way_of_inheritance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEA3A8322AFAB35200708271 /* Debug */,
-				DEA3A8332AFAB35200708271 /* Release */,
+				DEA3A8462AFAC61000708271 /* Debug */,
+				DEA3A8472AFAC61000708271 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DEA3A8222AFAB35200708271 /* Project object */;
+	rootObject = DEA3A8362AFAC61000708271 /* Project object */;
 }
